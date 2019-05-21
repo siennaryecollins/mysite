@@ -1,0 +1,33 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+/* Typography */
+
+h1,h2,h3,h4,h5 {
+  font-weight: 700;
+}
+
+
+@media (min-width: 768px) {
+  .navbar-expand-md .navbar-collapse {
+    flex-direction: row-reverse;
+  }
+}
+
+.paragraph {
+  margin-bottom: 100px;
+}
+
+
+.hero{
+  text-align: center;
+  padding: 100px;
+}
+
+
+/* Skills */
+.skills {
+  text-align: center;
+}
